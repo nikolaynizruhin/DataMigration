@@ -1,0 +1,32 @@
+	ReaderWriterTrait trait
+Create new instance from method params $className and $params. If class not exists throw error.
+
+	ConsoleLogger class
+Echo items count to console. If $status not defined shows warning message with $item.
+
+	AbstractProcessor class
+Setters and Getters for reader, writer and logger.
+
+	ReadWriteProcessor class
+Read from reader then write to Writer. Logging it.
+
+	YieldProcessor class
+Read from reader as iterator. Logging it.
+
+	Product class
+Connect to db and fetch data.
+
+	ReaderFactory class
+Create instance of ReaderInterface. If not instance of ReaderInterface throw error.
+
+	Csv class
+Check if file exist. Write array of $item to file. Close file.
+
+	ConsoleOutput class
+Write array of $item to console.
+
+	Html class
+Write array of $item to html table.
+
+	WriterFactory class
+Create instance of WriterInterface. If not instance of WriterInterface throw error.
